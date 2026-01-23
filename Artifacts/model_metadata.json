@@ -1,0 +1,19 @@
+{
+  "model_info": {
+    "algorithm": "KMeans",
+    "n_clusters": 3,
+    "silhouette_score": 0.4009982034076402,
+    "davies_bouldin": 0.8726219304270336,
+    "inertia": 5716.039021099992
+  },
+  "feature_info": {
+    "recency_definition": "days_since_last_purchase",
+    "frequency_definition": "log1p_transformed_transaction_count",
+    "monetary_definition": "log1p_transformed_total_spend"
+  },
+  "training_info": {
+    "n_customers": 5878,
+    "training_date": "2026-01-23",
+    "dataset_range": "2009-12-01 to 2011-12-09"
+  }
+}
